@@ -28,6 +28,16 @@ body{font-family: Roboto;}blockquote{border-color: #4ea2e3;}.display-1{font-fami
   
 </head>
 <body><div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div>
+
+<!-- Google Analytics -->
+<!-- AMP Analytics --><script async="" custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+<!-- Google Tag Manager -->
+<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-5WK744K&amp;gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+
+<!-- /Google Analytics -->
+
+
   <section class="header2 cid-rawslYUKfd" id="header2-15">
 
     
@@ -61,5 +71,5 @@ body{font-family: Roboto;}blockquote{border-color: #4ea2e3;}.display-1{font-fami
 
   
   
-<section class="engine"><a href="https://mobirise.info">Mobirise</a></section><button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)">                                         <a class="scroll-to-top-arrow"></a>                                     </button></body>
+<section class="engine"><a href="https://mobirise.info/r">bootstrap templates</a></section><button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)">                                         <a class="scroll-to-top-arrow"></a>                                     </button></body>
 </html>

@@ -34,16 +34,16 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
     "siteFonts": [],
-    "uniqCompNum": 20,
+    "uniqCompNum": 13,
     "versionPublish": "4.8.7",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
-    "siteUrl": "https://www.medigem.in",
+    "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<!-- AMP Analytics --><script async custom-element=\"amp-analytics\" src=\"https://cdn.ampproject.org/v0/amp-analytics-0.1.js\"></script>\r\n\r\n<!-- Google Tag Manager -->\r\n<amp-analytics config=\"https://www.googletagmanager.com/amp.json?id=GTM-5WK744K&gtm.url=SOURCE_URL\" data-credentials=\"include\"></amp-analytics>\r\n",
     "cookiesAlert": "",
     "gdpr": ""
   },
@@ -478,34 +478,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rak6yyoXmc",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "h1": {
-              "margin-bottom": "20px"
-            },
-            ".wrapper": {
-              "text-align": "center"
-            },
-            ".amp-iconfont": {
-              "padding": "1rem",
-              "margin": ".5rem",
-              "background": "@iconsBg",
-              "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
-              "font-size": "~\"@{iconsSize}rem\""
-            }
-          },
-          "_name": "social-follow",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"7\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"2\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#0dd1ff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"https://www.youtube.com/channel/UCLa07vNO2AR9sNLFCrTB12A\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-youtube fa\"></span>\n            </a>\n            <a href=\"https://www.facebook.com/MEDIGEM\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-facebook-square fa\"></span>\n            </a>\n            <a href=\"https://masterv3supplier.business.site/\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-google-plus fa\"></span>\n            </a>\n            \n                <span mbr-icon class=\"amp-iconfont fa-linkedin-square fa\"></span>\n            \n                <span mbr-icon class=\"amp-iconfont fa-pinterest-square fa\"></span>\n            \n            \n                <span mbr-icon class=\"amp-iconfont fa-instagram fa\"></span>\n            \n            <a href=\"https://twitter.com/medigem1\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-twitter fa\"></span>\n            </a>\n        </div>\n    </div>\n</section>",
-          "_cid": "rad1mjFlTv",
-          "_anchor": "social-follow-e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -5289,11 +5261,11 @@
           "_name": "header4",
           "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Master V3 for all Bangladeshi</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>\n            Great Discount Offer</b></h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"tel:01935283510\" data-app-placeholder=\"Type Text\">Call +880-1935283510</a></div>\n    </div>\n</section>",
           "_cid": "raHNRQpWKR",
+          "_anchor": "header4-f",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header4-f"
+          "_params": {}
         },
         {
           "_styles": {
@@ -5425,11 +5397,11 @@
           "_name": "content16",
           "_customHTML": "<section class=\"content16 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#4ea2e3\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><span style=\"font-weight: normal;\">আমরা সাপ্লাই দেই &nbsp;Barguna বরগুনা, Barisal বরিশাল, Bhola ভোলা, Jhalokati ঝালকাঠি, Patuakhali পটুয়াখালী, Pirojpur পিরোজপুর, Bandarban বান্দরবান, Brahmanbaria ব্রাহ্মণবাড়ীয়া,  Chandpur চাঁদপুর, Chittagong চট্টগ্রাম, Comilla কুমিল্লা, Cox's Bazar কক্সবাজার, Feni ফেনী, Khagrachhari খাগড়াছড়ি, Lakshmipur লক্ষ্মীপুর, Noakhali নোয়াখালী, Rangamati রাঙ্গামাটি, Ceragem center master v3 Dhaka ঢাকা, Faridpur ফরিদপুর, Gazipur গাজীপুর, Gopalganj গোপালগঞ্জ, Kishoreganj কিশোরগঞ্জ, Madaripur মাদারীপুর, Manikganj মানিকগঞ্জ, Munshiganj মুন্সীগঞ্জ, Narayanganj নারায়ণগঞ্জ, Narsingdi নরসিংদী, Rajbari রাজবাড়ী, Shariatpur শরীয়তপুর, Tangail টাঙ্গাইল, Bagerhat বাগেরহাট, Chuadanga চুয়াডাঙ্গা, Jessore যশোর, Jhenaidah ঝিনাইদহ, Khulna খুলনা, Kushtia কুষ্টিয়া, Magura মাগুরা, Ceragem Center master v3 Meherpur মেহেরপুর, Narail নড়াইল, Satkhira সাতক্ষিরা, Jamalpur জামালপুর, Mymensingh ময়মনসিংহ, Netrakona নেত্রকোনা, Sherpur শেরপুর, Bogra বগুড়া, Rajshahi Joypurhat জয়পুরহাট, Naogaon নওগাঁ, Natore নাটোর, Chapainawabganj নওয়াবগঞ্জ, Pabna পাবনা, Rajshahi রাজশাহী, Sirajgonj সিরাজগঞ্জ, Dinajpur দিনাজপুর, Gaibandha গাইবান্ধা, Kurigram কুড়িগ্রাম, Lalmonirhat লালমনিরহাট, Nilphamari নীলফামারী, Panchagarh পঞ্চগড়, Rangpur রংপুর, Thakurgaon ঠাকুরগাঁও, Habiganj হবিগঞ্জ, Moulvibazar মৌলভীবাজার, Sunamganj সুনামগঞ্জ, Sylhet সিলেট.</span></div>\n    </div>\n</section>",
           "_cid": "raI8oNpvtl",
+          "_anchor": "content16-i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content16-i"
+          "_params": {}
         }
       ]
     },
